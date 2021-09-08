@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Đăng nhập</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ebcebebd-e281-4b06-92e8-896589a53063</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3ae9c353-74e5-43b9-9231-f8d659cecb83</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>eecb1339-7f19-4b86-91a2-143444eff971</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
