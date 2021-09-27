@@ -23,20 +23,16 @@ import internal.GlobalVariable
 public class Select {
 
 	@Keyword
-	def getMultiSelect (TestObject to, String ops)
-	{
+	def getMultiSelect (TestObject to, String ops) {
 		String [] op = ops.split(',')
-		if (op.size()>1)
-		{
-			for (int i=0;i<op.length();i++)
-			{
+		if (op.size()>1) {
+			for (int i=0;i<op.length();i++) {
 				WebUI.click (to)
 				WebUI.setText(to, op[i].trim())
 				WebUI.click(findTestObject('Chung/Chọn giá trị trong MutilSelect',[('op'):(op[i].trim())]))
 			}
 		}
-		else
-		{
+		else {
 			WebUI.click(to)
 			WebUI.setText(to, ops.trim())
 			WebUI.click(findTestObject('chung/Chọn giá trị trong MultiSelect',[('op'):ops]))

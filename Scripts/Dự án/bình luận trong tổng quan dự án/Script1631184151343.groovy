@@ -19,11 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.G_URL)
+WebUI.navigateToUrl('https://demo.onwork.vn/work-management/project')
 
-WebUI.setText(findTestObject('Đăng nhập/Đăng nhập/Tên đăng nhập'), username)
+WebUI.setText(findTestObject('Dự án/bình luận trong dự án/input_Tp on Digital NOVAON_userName'), 'admin')
 
-WebUI.setText(findTestObject('Đăng nhập/Đăng nhập/Mật Khẩu'), password)
+WebUI.setEncryptedText(findTestObject('Dự án/bình luận trong dự án/input__password'), 'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Đăng nhập/Đăng nhập/Đăng nhập'))
+WebUI.click(findTestObject('Dự án/bình luận trong dự án/span_ng nhp'))
+
+WebUI.click(findTestObject('Dự án/bình luận trong dự án/a'))
+
+WebUI.click(findTestObject('Dự án/bình luận trong dự án/th_Thi gian to'))
+
+WebUI.click(findTestObject('Dự án/bình luận trong dự án/a_d n abc'))
+
+WebUI.setText(findTestObject('Dự án/bình luận trong dự án/textarea_a'), 'Dự án tốt')
+
+WebUI.sendKeys(findTestObject('Dự án/bình luận trong dự án/textarea_a'), Keys.chord(Keys.ENTER))
 

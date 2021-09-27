@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Thm</name>
+   <name>th_Thi gian to</name>
    <tag></tag>
-   <elementGuidId>b4d8380e-9905-4127-9df7-543b66022bdf</elementGuidId>
+   <elementGuidId>8a5d9c83-5c6f-4c58-806b-b0eada2f5832</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[normalize-space()='Thêm']</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.makeStyles-button-51.makeStyles-primaryContained-52.top-menu-content_btnAdd__2lTvZ</value>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div[2]/div[2]/div/div/div/table/thead/tr/th[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,90 +21,83 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>th</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-51 makeStyles-primaryContained-52 top-menu-content_btnAdd__2lTvZ</value>
+      <value>MuiTableCell-root jss73 MuiTableCell-head MuiTableCell-stickyHeader</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
+      <name>scope</name>
       <type>Main</type>
-      <value>0</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>button</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Thêm mới dự án</value>
+      <value>col</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Thêm</value>
+      <value>Thời gian tạo</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;app-layout_appContainer__2CTmZ&quot;]/div[@class=&quot;app-layout_rightContent__17uw0&quot;]/div[@class=&quot;app-layout_mainContent__gIZ2u&quot;]/div[@class=&quot;top-menu-content_menuHeaderContainer__3HfdL&quot;]/div[@class=&quot;top-menu-content_leftMenuContent__25fl1&quot;]/button[@class=&quot;MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-51 makeStyles-primaryContained-52 top-menu-content_btnAdd__2lTvZ&quot;]</value>
+      <value>id(&quot;root&quot;)/div[@class=&quot;app-layout_appContainer__1S9Rw&quot;]/div[@class=&quot;app-layout_rightContent__1xQzm&quot;]/div[@class=&quot;app-layout_mainContent__1U4Ll&quot;]/div[@class=&quot;content-section-v2&quot;]/div[@class=&quot;content-v2&quot;]/div[@class=&quot;table_tableContainerWrapper__1qefm&quot;]/div[@class=&quot;MuiTableContainer-root jss69&quot;]/table[@class=&quot;MuiTable-root jss70 MuiTable-stickyHeader&quot;]/thead[@class=&quot;MuiTableHead-root&quot;]/tr[@class=&quot;MuiTableRow-root MuiTableRow-head&quot;]/th[@class=&quot;MuiTableCell-root jss73 MuiTableCell-head MuiTableCell-stickyHeader&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//button[@type='button'])[8]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div[2]/div[2]/div/div/button[2]</value>
+      <value>//div[@id='root']/div/div[2]/div[2]/div[2]/div/div/div/table/thead/tr/th[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[1]/following::button[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tên dự án'])[1]/following::th[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tất cả nhân sự'])[1]/following::button[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Thêm'])[1]/following::th[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tên dự án'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quản lý'])[1]/preceding::th[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Người theo dõi'])[1]/preceding::th[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Thời gian tạo']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button[2]</value>
+      <value>//th[2]</value>
    </webElementXpaths>
 </WebElementEntity>

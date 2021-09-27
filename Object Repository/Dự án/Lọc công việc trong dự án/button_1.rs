@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Thm</name>
+   <name>button_1</name>
    <tag></tag>
-   <elementGuidId>b4d8380e-9905-4127-9df7-543b66022bdf</elementGuidId>
+   <elementGuidId>a09a60f1-26c9-4038-a2f8-ca479ac7c8b1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[normalize-space()='Thêm']</value>
+         <key>CSS</key>
+         <value>button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.jss53.jss62.top-menu-content_btnFilter__DjVi3</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.makeStyles-button-51.makeStyles-primaryContained-52.top-menu-content_btnAdd__2lTvZ</value>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[6]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-51 makeStyles-primaryContained-52 top-menu-content_btnAdd__2lTvZ</value>
+      <value>MuiButtonBase-root MuiButton-root MuiButton-contained jss53 jss62 top-menu-content_btnFilter__DjVi3</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,62 +49,90 @@
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
-      <value>Thêm mới dự án</value>
+      <value>Chọn bộ lọc</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tableid</name>
+      <type>Main</type>
+      <value>7</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>quickfiltercount</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>quickfilterprops</name>
+      <type>Main</type>
+      <value>[object Object],[object Object],[object Object],[object Object]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Thêm</value>
+      <value>1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;app-layout_appContainer__2CTmZ&quot;]/div[@class=&quot;app-layout_rightContent__17uw0&quot;]/div[@class=&quot;app-layout_mainContent__gIZ2u&quot;]/div[@class=&quot;top-menu-content_menuHeaderContainer__3HfdL&quot;]/div[@class=&quot;top-menu-content_leftMenuContent__25fl1&quot;]/button[@class=&quot;MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-51 makeStyles-primaryContained-52 top-menu-content_btnAdd__2lTvZ&quot;]</value>
+      <value>id(&quot;root&quot;)/div[@class=&quot;app-layout_appContainer__1S9Rw&quot;]/div[@class=&quot;app-layout_rightContent__1xQzm&quot;]/div[@class=&quot;app-layout_mainContent__1U4Ll&quot;]/div[@class=&quot;top-menu-content_menuHeaderContainer__1Vc5c&quot;]/div[@class=&quot;top-menu-content_leftMenuContent__2dTIN&quot;]/div[@class=&quot;filter-table-dropdown_btnFilter__1GBI-&quot;]/div[@class=&quot;filter-table-dropdown_filter__3_4Z-&quot;]/button[@class=&quot;MuiButtonBase-root MuiButton-root MuiButton-contained jss53 jss62 top-menu-content_btnFilter__DjVi3&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[8]</value>
+      <value>(//button[@type='button'])[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div[2]/div[2]/div/div/button[2]</value>
+      <value>//div[@id='root']/div/div[2]/div[2]/div/div/div[4]/div/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[1]/following::button[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tất cả nhân sự'])[1]/following::button[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='dự án abc'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tên dự án'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tạo bộ lọc'])[1]/preceding::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hủy lọc'])[1]/preceding::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button[2]</value>
+      <value>//div[4]/div/button</value>
    </webElementXpaths>
 </WebElementEntity>

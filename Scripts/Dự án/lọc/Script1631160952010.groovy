@@ -19,33 +19,43 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Đăng nhập/Đăng nhập'), [('username') : '', ('password') : ''], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Dự án/Page_Qun l cng vic/a'))
+WebUI.click(findTestObject('Dự án/Lọc công việc trong dự án/a'))
 
-WebUI.setText(findTestObject('Object Repository/Dự án/Page_Qun l cng vic/input_Li_MuiInputBase-input MuiOutlinedInpu_efbd34'), 
-    'dự án abc')
+WebUI.click(findTestObject('Dự án/Thêm công việc trong dự án/label_Thời gian tạo'))
 
-WebUI.sendKeys(findTestObject('Object Repository/Dự án/Page_Qun l cng vic/input_Li_MuiInputBase-input MuiOutlinedInpu_efbd34'), 
-    Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Dự án/Lọc công việc trong dự án/a_d n abc'))
 
-WebUI.click(findTestObject('Dự án/Page_Qun l cng vic/th_Thời gian tạo'))
+WebUI.click(findTestObject('Dự án/Lọc công việc trong dự án/a_Tt c'))
 
-WebUI.click(findTestObject('Object Repository/Dự án/Page_Qun l cng vic/a_d n abc'))
+WebUI.click(findTestObject('Dự án/Lọc công việc trong dự án/button_1'))
 
-WebUI.click(findTestObject('Object Repository/Dự án/Page_Qun l cng vic/a_Kanban'))
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Dự án/Page_Qun l cng vic/span_Thm ct'))
+WebUI.click(findTestObject('Dự án/Lọc công việc trong dự án/input_B lc_jss111'))
 
-WebUI.setText(findTestObject('Object Repository/Dự án/Page_Qun l cng vic/input_Hon thnh_MuiInputBase-input MuiOutlin_650231'), 
-    'Cột 1')
+WebUI.click(findTestObject('Dự án/Lọc công việc trong dự án/button_sổ xuống'))
 
-WebUI.click(findTestObject('Object Repository/Dự án/Page_Qun l cng vic/button'))
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Dự án/Page_Qun l cng vic/span_Thm ct'))
+WebUI.setText(findTestObject('Dự án/Lọc công việc trong dự án/Input_chọn kiểu lọc'), 'Contains')
 
-WebUI.setText(findTestObject('Object Repository/Dự án/Page_Qun l cng vic/input_Hon thnh_MuiInputBase-input MuiOutlin_650231'), 
-    'Cột 2')
+WebUI.click(findTestObject('Dự án/Lọc công việc trong dự án/li_Type filter'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Dự án/Page_Qun l cng vic/button'))
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_Qun l cng vic/div_Thm mi ct thnh cng'))
+WebUI.setText(findTestObject('Dự án/Lọc công việc trong dự án/input_filterValue'), 'CV')
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Dự án/Lọc công việc trong dự án/button_p dng'))
+
+WebUI.delay(1)
+
+CustomKeywords.'CheckColumnFilter.checkColumnFilter'('CV')
+
+WebUI.mouseOver(findTestObject('Dự án/Lọc công việc trong dự án/button_1'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Dự án/Lọc công việc trong dự án/item_Hủy lọc'))
 

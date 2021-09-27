@@ -28,13 +28,13 @@
       <variableLink>
          <testDataLinkId>09e6c2e2-1505-4295-9332-1c783f8caeff</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>username</value>
+         <value>user</value>
          <variableId>3ae9c353-74e5-43b9-9231-f8d659cecb83</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>09e6c2e2-1505-4295-9332-1c783f8caeff</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>password</value>
+         <value>passwword</value>
          <variableId>eecb1339-7f19-4b86-91a2-143444eff971</variableId>
       </variableLink>
    </testCaseLink>
